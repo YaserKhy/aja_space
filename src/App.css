@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
 body {
   background-color: #0C0829;
+}
+
+.navlink {
+  color: white;
+  font-family: 'Cairo';
+  font-size: 24px;
+}
+.navlink:visited {
+  color: white !important;
+}
+
+.navlink:hover {
+  color: blue !important;
 }
