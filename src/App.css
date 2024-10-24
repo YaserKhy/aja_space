@@ -7,7 +7,7 @@ body {
 .navlink {
   color: white;
   font-family: 'Cairo';
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .navlink:visited {
   color: white !important;
@@ -15,4 +15,26 @@ body {
 
 .navlink:hover {
   color: blue !important;
+}
+
+@keyframes float {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(-10px);}
+  100% {transform: translateY(0px);}
+}
+
+.animatedLogo {
+  animation: float 2.5s infinite;
+}
+
+.homeContactBtn {
+  max-width: fit-content;
+  font-family: 'Cairo';
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom right,#1A82CB,#1F3FAA);
+}
+
+.homeContactBtn:hover {
+  background-image: linear-gradient(to bottom right,#1F3FAA,#1A82CB);
 }
