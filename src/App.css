@@ -50,10 +50,34 @@ body {
 
 .aboutText {
   opacity: 0.7;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .aboutSection {
   color: #3326AE;
   font-size: 1.5rem;
+}
+
+@keyframes lift {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-10px);}
+}
+
+
+.valuesIcon {
+  opacity: 0.6;
+  border-bottom: 1px solid #1F3FAA;
+}
+
+.valuesIcon:hover {
+  opacity: 0.8;
+}
+
+.valueIconCard:hover {
+  opacity: 1;
+  animation: lift .5s forwards;
+}
+
+.valuesText {
+  font-size: 1.4rem
 }

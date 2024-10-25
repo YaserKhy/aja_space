@@ -21,7 +21,7 @@ function Header() {
                 <Nav.Link className='navlink px-3' href='#contact'>تواصل معنا</Nav.Link>
             </Nav>
             {/* </Navbar.Collapse> */}
-            <Navbar.Brand className='d-flex px-3'><Image src={`${process.env.PUBLIC_URL}/rect_logo.png`} width={280} /></Navbar.Brand>
+            <Navbar.Brand className='d-flex px-3'><Image src={`${process.env.PUBLIC_URL}/images/rect_logo.png`} width={280} /></Navbar.Brand>
         </Navbar>
     )
 }
