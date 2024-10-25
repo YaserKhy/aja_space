@@ -100,3 +100,13 @@ body {
 .serviceCard:hover .serviceImg {
   transform: rotateY(360deg);
 }
+
+.eventImage {
+  width: 60%;
+  opacity: 1;
+}
+
+.eventImage:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
