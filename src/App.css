@@ -58,35 +58,45 @@ body {
   font-size: 1.5rem;
 }
 
-@keyframes lift {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-10px);}
-}
-
 
 .valuesIcon {
   opacity: 0.6;
   border-bottom: 1px solid #1F3FAA;
+  transition: opacity .3s ease;
 }
 
 .valuesIcon:hover {
   opacity: 0.8;
 }
 
+.valueIconCard {
+  transform: translateY(0);
+  transition: transform .3s ease;
+}
+
 .valueIconCard:hover {
   opacity: 1;
-  animation: lift .5s forwards;
+  transform: translateY(-10px);
 }
 
 .valuesText {
   font-size: 1.4rem
 }
 
-@keyframes liftService {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-5px);}
+.serviceImg, .serviceCard {
+  transform: translateY(0);
+  transition: transform .3s ease;
 }
 
-.serviceCard:hover {
-  animation: liftService .3s forwards;
+.serviceImg:hover, .serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+.serviceCard .serviceImg {
+  transform: rotateY(0deg);
+  transition: transform .7s ease;
+}
+
+.serviceCard:hover .serviceImg {
+  transform: rotateY(360deg);
 }
