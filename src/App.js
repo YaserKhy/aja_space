@@ -4,6 +4,7 @@ import Header from './components/header.js';
 import Home from './components/home.js';
 import About from './components/about.js';
 import Values from './components/values.js';
+import Services from './components/service.js';
 import { Button, Container, Col, Row, } from 'react-bootstrap';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <About/>
       <Values/>
+      <Services/>
       <Container>
         <Row>
           <Col>

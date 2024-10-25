@@ -81,3 +81,12 @@ body {
 .valuesText {
   font-size: 1.4rem
 }
+
+@keyframes liftService {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-5px);}
+}
+
+.serviceCard:hover {
+  animation: liftService .3s forwards;
+}

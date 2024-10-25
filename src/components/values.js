@@ -1,13 +1,11 @@
 import React from 'react'
 import { Row, Container } from 'react-bootstrap'
+import SectionTitle from './custom/section_title'
 import ValuesIcon from './custom/values_icon'
 
 function Values() {
-    return <Container>
-        <Row className='d-flex flex-column w-100 mt-4 justify-content-center'>
-            <p className='text-center pt-5 m-0' style={{ fontSize: '1rem' }}>قيمنـــا</p>
-            <p className='text-center pb-2' style={{ fontSize: '1.7rem' }}>قيم فضاء أجا</p>
-        </Row>
+    return <Container style={{minHeight: '80vh'}}>
+        <SectionTitle title={'قيمنـــا'} subTitle={'قيم فضاء أجا'}></SectionTitle>
         <Row className='d-flex flex-row-reverse mt-5 pt-5'>
             <ValuesIcon label={'الاتقان والجودة'} icon={`${process.env.PUBLIC_URL}/icons/value1.png`} />
             <ValuesIcon label={'الحفاظ على الخصوصيه'} icon={`${process.env.PUBLIC_URL}/icons/value2.png`} />

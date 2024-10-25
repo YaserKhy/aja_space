@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import SectionTitle from './custom/section_title'
 
 function About() {
     return (
         <Container id='about' className='d-flex flex-column w-100 mt-4 justify-content-center'>
-            <p className='text-center p-0 m-0' style={{ fontSize: '1.1rem' }}>فضاء اجـا عن قرب</p>
-            <p className='text-center pb-2' style={{ fontSize: '1.7rem' }}>من نحن</p>
-            <hr style={{ color: 'blue', opacity: 0.2 }}></hr>
+            <SectionTitle title={'فضاء اجـا عن قرب'} subTitle={'من نحن'}></SectionTitle>
+            <hr className='pb-4' style={{ color: 'blue', opacity: 0.2 }}></hr>
             <Row className='d-flex flex-row-reverse justify-content-center'>
                 <Col>
                     <Image src={`${process.env.PUBLIC_URL}/images/about_us.png`} width={500} />
