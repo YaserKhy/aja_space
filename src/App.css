@@ -83,12 +83,12 @@ body {
   font-size: 1.4rem
 }
 
-.serviceImg, .serviceCard {
+.serviceImg, .serviceCard, .client {
   transform: translateY(0);
   transition: transform .3s ease;
 }
 
-.serviceImg:hover, .serviceCard:hover {
+.serviceImg:hover, .serviceCard:hover, .client:hover {
   transform: translateY(-5px);
 }
 
@@ -117,11 +117,9 @@ body {
   transition: background-color .3s ease;
 }
 
-.client {
-  transform: translateY(0px);
-  transition: transform .3s ease;
-}
-
-.client:hover {
-  transform: translateY(-5px);
+.partnersBox {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: #1A82CB 1px solid;
+  border-radius: 2rem;
+  width: 65%;
 }
