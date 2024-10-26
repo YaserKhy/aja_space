@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Button } from 'react-bootstrap'
-// import { BsArrowLeftCircle } from "react-icons/bs";
 
 function Initiative3() {
 	return (

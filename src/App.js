@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 import Header from './components/header.js';
 import Home from './components/home.js';
@@ -17,14 +18,14 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      <About/>
+      {/* <About/>
       <Values/>
       <Services/>
       <Events/>
       <Initiatives/>
       <Clients/>
       <Partners/>
-      <ContactUs/>
+      <ContactUs/> */}
       <Footer/>
     </div>
   );

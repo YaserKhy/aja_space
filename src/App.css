@@ -138,3 +138,60 @@ body {
 .socialIcon:hover {
   background-color: #1A82CB;
 }
+
+
+/* ////////////////////////////////////////// */
+
+@media (max-width:1023px) {
+  .navbar {
+    padding: 16px 0px !important;
+    --bs-navbar-toggler-icon-bg : url(data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27><path stroke=%27rgba%28255, 255, 255, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/></svg>)
+  }
+  .navbar .navbar-brand img {
+    width: 170px;
+  }
+  .navbar .navbar-brand {
+    margin-right: 0px;
+  }
+  .navbar .navbar-toggler {
+    color: white !important;
+  }
+
+  #home .animatedLogo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+
+  #home #responsiveLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home #webname {
+    margin-top: 10px;
+    font-size: 2rem !important;
+  }
+
+  #home #webdesc {
+    text-align: center !important;
+    font-size: 1.3rem !important;
+  }
+
+  #home .homeContactBtn {
+    font-size: .9rem;
+    display: flex !important;
+    justify-content: left !important;
+  }
+
+  #footer img {
+    width: 40px;
+  }
+
+  #footer>.row {
+    
+  }
+}
