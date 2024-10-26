@@ -10,12 +10,12 @@ function Initiative2() {
 		'تعلم جمع وتنظيف وتحليل البيانات باستخدام الأدوات، لاستخراج المعلومات واتخاذ القرارات المستندة إلى البيانات'
 	]
 	return (
-		<Row className='d-flex flex-wrap flex-row-reverse mt-5 px-5'>
+		<Row className='d-flex flex-wrap flex-row-reverse mt-5 px-5 init2'>
 			{
 				titles.map((value,index)=>{
 					return <Col lg={4} sm={12} xs={12} className='d-flex flex-column align-items-center'>
-					<p style={{fontSize: '1.8rem'}} className='text-center'>{value}</p>
-					<p style={{fontSize: '1.2rem', maxWidth:'339px'}} className='text-center'>{descs[index]}</p>
+					<p id='init2title' style={{fontSize: '1.8rem'}} className='text-center'>{value}</p>
+					<p id='init2desc' style={{fontSize: '1.2rem', maxWidth:'339px'}} className='text-center'>{descs[index]}</p>
 					</Col>
 				})
 			}

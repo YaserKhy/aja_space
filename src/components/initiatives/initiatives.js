@@ -10,12 +10,12 @@ function Initiatives() {
 	const tabTitles = ['اكتشف', 'تعرف', 'أنضم'];
 	return (
 		<Container className='d-flex flex-column align-items-center' style={{minHeight: '100vh'}}>
-			<p className='pt-5' style={{ fontSize: '2.8rem' }}>مبادراتنا</p>
+			<p className='initTitle pt-5' style={{ fontSize: '2.8rem' }}>مبادراتنا</p>
 			<Row className='d-flex flex-row-reverse justify-content-center mt-5'>
 				{
 					tabTitles.map((value, index) => {
 						return <Col>
-							<p style={{ backgroundColor: selectedTab === index + 1 ? 'rgba(255, 255, 255, 0.2)' : 'transparent' }} onMouseEnter={() => setSelectedTab(index + 1)} className='initTab px-4 py-1 mx-3'>{value}</p>
+							<p style={{ backgroundColor: selectedTab === index + 1 ? 'rgba(255, 255, 255, 0.2)' : 'transparent' }} onMouseEnter={() => setSelectedTab(index + 1)} className='initTab'>{value}</p>
 						</Col>
 					})
 				}

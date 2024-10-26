@@ -18,12 +18,12 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      {/* <About/>
+      <About/>
       <Values/>
       <Services/>
       <Events/>
       <Initiatives/>
-      <Clients/>
+      {/* <Clients/>
       <Partners/>
       <ContactUs/> */}
       <Footer/>
