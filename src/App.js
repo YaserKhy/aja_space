@@ -7,6 +7,7 @@ import Values from './components/values.js';
 import Services from './components/services.js';
 import Events from './components/events.js';
 import { Button, Container, Col, Row } from 'react-bootstrap';
+import Initiatives from './components/initiatives.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Values/>
       <Services/>
       <Events/>
+      <Initiatives/>
       <Container>
         <Row>
           <Col>

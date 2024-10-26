@@ -110,3 +110,13 @@ body {
   transform: translateY(-2px);
   opacity: 0.9;
 }
+
+.initTab {
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  transition: background-color .3s ease;
+}
+
+/* .initTab:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+} */

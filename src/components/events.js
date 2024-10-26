@@ -4,7 +4,7 @@ import SectionTitle from './custom/section_title'
 
 function Events() {
     return (
-        <Container className='mt-5'>
+        <Container id='ev' style={{minHeight: '100vh'}}>
             <SectionTitle title={""} subTitle={"فعـالياتنــا"}></SectionTitle>
             <Container className='d-flex justify-content-center align-items-center'>
                 <a href='##' className='text-center'><Image className='eventImage' src={`${process.env.PUBLIC_URL}/images/event.png`} /></a>
