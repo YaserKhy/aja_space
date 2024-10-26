@@ -23,9 +23,9 @@ function App() {
       <Services/>
       <Events/>
       <Initiatives/>
-      {/* <Clients/>
+      <Clients/>
       <Partners/>
-      <ContactUs/> */}
+      <ContactUs/>
       <Footer/>
     </div>
   );

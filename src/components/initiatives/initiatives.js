@@ -11,7 +11,7 @@ function Initiatives() {
 	return (
 		<Container className='d-flex flex-column align-items-center' style={{minHeight: '100vh'}}>
 			<p className='initTitle pt-5' style={{ fontSize: '2.8rem' }}>مبادراتنا</p>
-			<Row className='d-flex flex-row-reverse justify-content-center mt-5'>
+			<Row className='d-flex flex-row-reverse justify-content-center mt-3'>
 				{
 					tabTitles.map((value, index) => {
 						return <Col>

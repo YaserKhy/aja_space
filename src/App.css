@@ -83,6 +83,10 @@ body {
   font-size: 1.4rem
 }
 
+.client {
+  margin-bottom: 40px;
+}
+
 .serviceImg, .serviceCard, .client {
   transform: translateY(0);
   transition: transform .3s ease;
@@ -113,9 +117,10 @@ body {
 
 .initTab {
   font-size: 1.8rem;
+  cursor: pointer;
   border-radius: 2rem;
-  padding: .25rem, 1.5rem;
-  margin: 0px 1rem;
+  padding: 0.25rem 1rem;
+  margin: 0.75px 0px;
   transition: background-color .3s ease;
 }
 
@@ -124,6 +129,16 @@ body {
   border: #1A82CB 1px solid;
   border-radius: 2rem;
   width: 65%;
+}
+
+.partnerImg {
+  transform: translateY(0);
+  transition: transform .3s ease;
+  padding: 3rem;
+}
+
+.partnerImg:hover {
+  transform: translateY(-5px);
 }
 
 .contactIcon {
@@ -149,9 +164,9 @@ body {
 
 .statBox {
   background-color: rgba(255,255,255,0.3);
-  width: 135;
-  height: 135;
-  border-radius: '20px';
+  width: 135px;
+  height: 135px;
+  border-radius: 20px;
 }
 
 .statBox .col {
@@ -159,11 +174,15 @@ body {
 }
 
 .init3 {
-  justify-content: center;
+  justify-content: start;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
+#contact .contactView {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 /* ////////////////////////////////////////// */
 
@@ -215,58 +234,79 @@ body {
   #footer img {
     width: 40px;
   }
-}
+  
+  .initTab {
+    font-size: 1.2rem;
+    width: fit-content !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  #init1 .col p {
+    font-size: .7rem !important;
+  }
+  
+  #ev {
+    min-height: 50vh !important;
+  }
+  
+  .stat {
+  font-size: 1.5rem;
+  }
+  
+  .statBox {
+    background-color: rgba(255,255,255,0.3);
+    width: 90px;
+    height: 90px;
+    padding: 50px !important;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  .initTitle {
+    font-size: 1.7rem !important;
+    padding-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+  
+  #statBoxContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .init3 {
+    justify-content: start;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+  
+  .init2 #init2title, .init3 #init3title {
+    font-size: 1.2rem !important;
+  }
+  
+  .init2 #init2desc, .init3 #init3desc {
+    font-size: .9rem !important;
+  }
+  
+  .partnerImg {
+    padding: 1rem !important;
+    width: 200px;
+  }
 
-.initTab {
-  font-size: 1.2rem;
-  width: fit-content !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-#init1 .col p {
-  font-size: .7rem !important;
-}
+  #contact .contactView {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 
-#ev {
-  min-height: 50vh !important;
-}
-
-.stat {
-font-size: 1.5rem;
-}
-
-.statBox {
-  background-color: rgba(255,255,255,0.3);
-  width: 90px;
-  height: 90px;
-  padding: 50px !important;
-  margin: 10px;
-  border-radius: 20px;
-}
-
-.initTitle {
-  font-size: 1.7rem !important;
-  padding-top: 10px !important;
-  margin-bottom: 0px !important;
-}
-
-#statBoxContainer {
-  display: flex;
-  justify-content: center;
-  /* margin-bottom: 20px; */
-}
-
-.init3 {
-  justify-content: start;
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
-}
-
-.init2 #init2title, .init3 #init3title {
-  font-size: 1.2rem !important;
-}
-
-.init2 #init2desc, .init3 #init3desc {
-  font-size: .9rem !important;
+  form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }

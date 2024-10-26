@@ -1,15 +1,15 @@
 import React from 'react'
-import { Container, Image } from 'react-bootstrap'
+import { Container, Image, Row, Col } from 'react-bootstrap'
 import SectionTitle from './custom/section_title'
 
 function Partners() {
 	return (
-		<Container style={{minHeight: '70vh'}}>
+		<Container className='d-flex flex-column text-center justify-content-center align-items-center' style={{minHeight: '70vh'}}>
 			<SectionTitle title={''} subTitle={'شركاؤنا'}></SectionTitle>
-			<Container className='d-flex flex-row-reverse justify-content-around align-items-center py-5 partnersBox'>
-				<Image className='p-5' src={`${process.env.PUBLIC_URL}/icons/partners/partner1.png`} width={220}/>
-				<Image className='p-5' src={`${process.env.PUBLIC_URL}/icons/partners/partner2.png`} width={320}/>
-			</Container>
+			<Row className='d-flex flex-row-reverse justify-content-around align-items-center py-5 partnersBox'>
+				<Col lg={6} md={12} sm={12}><Image className='partnerImg' src={`${process.env.PUBLIC_URL}/icons/partners/partner1.png`} width={220}/></Col>
+				<Col lg={6} md={12} sm={12}><Image className='partnerImg' src={`${process.env.PUBLIC_URL}/icons/partners/partner2.png`} width={320}/></Col>
+			</Row>
 		</Container>
 	)
 }

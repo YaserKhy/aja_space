@@ -6,7 +6,7 @@ import ValuesIcon from './custom/values_icon'
 function Values() {
 	return <Container style={{ minHeight: '80vh' }}>
 		<SectionTitle title={'قيمنـــا'} subTitle={'قيم فضاء أجا'}></SectionTitle>
-		<Row className='d-flex flex-row-reverse mt-5 pt-5'>
+		<Row className='d-flex flex-row-reverse mt-5 pt-5 justify-content-center'>
 			<ValuesIcon label={'الاتقان والجودة'} icon={`${process.env.PUBLIC_URL}/icons/values/value1.png`} />
 			<ValuesIcon label={'الحفاظ على الخصوصيه'} icon={`${process.env.PUBLIC_URL}/icons/values/value2.png`} />
 			<ValuesIcon label={'الولاء والانتماء'} icon={`${process.env.PUBLIC_URL}/icons/values/value3.png`} />

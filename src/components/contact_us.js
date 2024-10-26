@@ -11,7 +11,7 @@ function ContactUs() {
     <Container id='contact' className='my-3' style={{minHeight: '110vh'}}>
       <SectionTitle title={'للتواصـل'} subTitle={'تواصل معنا'}></SectionTitle>
       <hr className='mb-5 pb-4' style={{ color: 'blue', opacity: 0.2 }}></hr>
-      <Row className='d-flex flex-row-reverse'>
+      <Row className='contactView'>
         <Col className='d-flex flex-column align-items-end text-end'>
           <Row><p className='text-end ps-5' style={{ fontSize: '1.1rem' }}>نسعد دوماً لخدمتكم، في حال وجود اي استفسار نرجو منكم التواصل معنا عبر خدمة البريد الالكتروني او عبر وسائل التواصل المتاحة</p></Row>
           <ContactInfo title={':العنوان'} subTitle={'حائل, الخماشية, مقر بنك التمنية الاجتماعية (جادة 30)'} icon={faLocationDot}/>
