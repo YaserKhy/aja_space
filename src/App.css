@@ -116,3 +116,12 @@ body {
   border-radius: 2rem;
   transition: background-color .3s ease;
 }
+
+.client {
+  transform: translateY(0px);
+  transition: transform .3s ease;
+}
+
+.client:hover {
+  transform: translateY(-5px);
+}
