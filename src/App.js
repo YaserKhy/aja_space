@@ -8,6 +8,7 @@ import Services from './components/services.js';
 import Events from './components/events.js';
 import Clients from './components/clients.js';
 import Partners from './components/partners.js';
+import ContactUs from './components/contact_us.js';
 import { Button, Container, Col, Row } from 'react-bootstrap';
 import Initiatives from './components/initiatives/initiatives.js';
 
@@ -23,6 +24,7 @@ function App() {
       <Initiatives/>
       <Clients/>
       <Partners/>
+      <ContactUs/>
       <Container>
         <Row>
           <Col>

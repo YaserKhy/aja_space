@@ -2,11 +2,11 @@
 
 * {
   font-family: 'Cairo';
-  color: white;
 }
 
 body {
   background-color: #0C0829;
+  color: white;
 }
 
 .navlink {
@@ -122,4 +122,19 @@ body {
   border: #1A82CB 1px solid;
   border-radius: 2rem;
   width: 65%;
+}
+
+.contactIcon {
+  color: #3326AE !important;
+}
+
+.socialIcon {
+  width: 35px;
+  height: 35px;
+  background-color: #3326ae;
+  border-radius: 50%;
+}
+
+.socialIcon:hover {
+  background-color: #1A82CB;
 }
