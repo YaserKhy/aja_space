@@ -9,7 +9,7 @@ import Events from './components/events.js';
 import Clients from './components/clients.js';
 import Partners from './components/partners.js';
 import ContactUs from './components/contact_us.js';
-import { Button, Container, Col, Row } from 'react-bootstrap';
+import Footer from './components/footer.js';
 import Initiatives from './components/initiatives/initiatives.js';
 
 function App() {
@@ -25,25 +25,7 @@ function App() {
       <Clients/>
       <Partners/>
       <ContactUs/>
-      <Container>
-        <Row>
-          <Col>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-            <Button className='d-block'>Click</Button>
-          </Col>
-        </Row>
-      </Container>
+      <Footer/>
     </div>
   );
 }

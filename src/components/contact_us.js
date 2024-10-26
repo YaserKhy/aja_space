@@ -20,25 +20,24 @@ function ContactUs() {
           <SocialInfo/>
         </Col>
         <Col>
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
+          <Form className='p-3 text-end' style={{backgroundColor:'white', borderRadius: '20px'}}>
+            <Form.Group className='mb-3' controlId='formName'>
+              <Form.Label style={{color:'black'}}>الاسم</Form.Label>
+              <Form.Control className='text-end' type="text" placeholder="اسمك" />
             </Form.Group>
-
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+            <Form.Group className="mb-3" controlId="formEmail">
+              <Form.Label style={{color: 'black'}}>البريد الإلكتروني</Form.Label>
+              <Form.Control className='text-end' type="email" placeholder="email@mail.com" />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
+            <Form.Group className="mb-3" controlId="formPhone">
+              <Form.Label style={{color: 'black'}}>رقم الجوال</Form.Label>
+              <Form.Control type="number" placeholder="05xxxxxxxx" />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
+            <Form.Group className="mb-3" controlId="formMsg">
+              <Form.Label style={{color: 'black'}}>رسالة</Form.Label>
+              <Form.Control className='text-end' type="text" placeholder="أدخل رسالتك هنا" />
+            </Form.Group>
+            <Row className='d-flex justify-content-center align-items-center'><Button className='homeContactBtn px-5' style={{minWidth:'100% !important',maxWidth:'100% !important'}} type="submit">إرسال</Button></Row>
           </Form>
         </Col>
       </Row>
