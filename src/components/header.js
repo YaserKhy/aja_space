@@ -8,7 +8,7 @@ function Header() {
 	useEffect(() => { window.addEventListener('scroll', () => window.scrollY === 0 ? setNavColor(false) : setNavColor(true)) });
 
 	return (
-		<Navbar sticky='top' className={`${navColor ? 'py-2' : 'py-4'} justify-content-around`} style={{ transition: '0.3s ease-in-out', scrollBehavior: 'smooth', backgroundImage: navColor ? 'linear-gradient(to right,#0C0829,#0A0050)' : null }}>
+		<Navbar sticky='top' className={`${navColor ? 'py-2' : 'py-4'} justify-content-around`} style={{padding:'24px 150px', transition: '0.3s ease-in-out', scrollBehavior: 'smooth', backgroundImage: navColor ? 'linear-gradient(to right,#0C0829,#0A0050)' : null }}>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			<Navbar.Collapse id="responsive-navbar-nav">
 			<Nav className='d-flex flex-row-reverse justify-content-center'>

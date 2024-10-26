@@ -8,7 +8,7 @@ import { faLocationDot, faPhone, faMailBulk } from '@fortawesome/free-solid-svg-
 
 function ContactUs() {
   return (
-    <Container id='contact' className='my-3'>
+    <Container id='contact' className='my-3' style={{minHeight: '110vh'}}>
       <SectionTitle title={'للتواصـل'} subTitle={'تواصل معنا'}></SectionTitle>
       <hr className='mb-5 pb-4' style={{ color: 'blue', opacity: 0.2 }}></hr>
       <Row className='d-flex flex-row-reverse'>
@@ -31,7 +31,7 @@ function ContactUs() {
             </Form.Group>
             <Form.Group className="mb-3" controlId="formPhone">
               <Form.Label style={{color: 'black'}}>رقم الجوال</Form.Label>
-              <Form.Control type="number" placeholder="05xxxxxxxx" />
+              <Form.Control type="number" placeholder="05xxxxxxxx"/>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formMsg">
               <Form.Label style={{color: 'black'}}>رسالة</Form.Label>
